@@ -18,5 +18,8 @@
 //Variables
 @import 'base/variables.scss';
 
+@import "base/default";
+
 //Partials - main css files
+@import 'partials/*';
 @import 'partials/layout/*';
