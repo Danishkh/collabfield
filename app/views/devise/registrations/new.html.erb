@@ -10,7 +10,7 @@
                        url: registration_path(resource_name)) do |f| %>
 
           <%= f.text_field :name,
-                          placeholder:'username (will be shown publically)'
+                          placeholder:'username (will be shown publically)',
                           class: 'form-control'%>
 
           <%= f.text_field :email, 
@@ -18,11 +18,11 @@
                             class: "form-control"%>
 
           <%= f.password_field  :password,
-                                placeholder: 'password'
+                                placeholder: 'password',
                                 class: 'form-control' %>
 
           <%= f.password_field :password_confirmation, 
-                              placeholder: "password confirmation"
+                              placeholder: "password confirmation",
                               class: 'form-control' %>
 
           <%= f.submit "Sign up", class: 'btn sign-up-button' %>
